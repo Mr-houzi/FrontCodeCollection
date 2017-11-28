@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>jquery实现3D立体旋转幻灯片特效</title>
+		<link href="css/demos.css" rel="stylesheet" />
+		<style>
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 0 auto;
+				width: 42em;
+				height: 28em;
+			}
+			li {
+				height: 24em;
+				width: 24em;
+				text-align: center;
+				cursor: pointer;
+			}
+				li img {
+					width: 100%;
+				}
+				li.roundabout-in-focus {
+					cursor: default;
+				}
+			li span {
+				display: block;
+				padding-top: 6em;
+			}
+
+			#carbonads-container .carbonad {
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>jQuery立体旋转幻灯片演示</h1>
+		
+		<ul>
+			<li><img src="images/firefox.png" alt="firefox" /></li>
+			<li><img src="images/ps.png" alt="ps" /></li>
+			<li><img src="images/word.png" alt="word" /></li>
+			<li><img src="images/youtube.png" alt="youtube" /></li>
+			<li><img src="images/skype.png" alt="skype" /></li>
+		</ul>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.roundabout.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('ul').roundabout();
+			});
+		</script>
+
+	</body>
+</html>
