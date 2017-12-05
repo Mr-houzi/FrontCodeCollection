@@ -24,9 +24,12 @@
 ### 用法
 
 css文件引用：
+```
 	<link href="css/demos.css" rel="stylesheet" />
+```
 
 页面结构：
+```
 	<ul>
 		<li><img src="images/firefox.png" alt="firefox" /></li>
 		<li><img src="images/ps.png" alt="ps" /></li>
@@ -34,8 +37,10 @@ css文件引用：
 		<li><img src="images/youtube.png" alt="youtube" /></li>
 		<li><img src="images/skype.png" alt="skype" /></li>
 	</ul>
+```
 
 jquery代码调用：
+```
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.roundabout.js"></script>
 	<script>
@@ -43,3 +48,4 @@ jquery代码调用：
 	        $('ul').roundabout();
 	    });
 	</script>
+```
