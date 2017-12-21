@@ -141,4 +141,4 @@ $(function(){
 
 4、其他：配置、方法、回调函数 
 
-略 (更多请参考此页面)[http://www.dowebok.com/77.html]
+略 [更多请参考此页面](http://www.dowebok.com/77.html)
