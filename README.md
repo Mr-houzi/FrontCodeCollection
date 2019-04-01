@@ -1,4 +1,4 @@
-# FrontCodeCollection(前端代码整理)
+# FrontCodeCollection(前端实用代码片段)
 
 ## [1.图片压缩上传](https://github.com/Mr-houzi/FrontCodeCollection/tree/master/uploadPic)
 
@@ -22,11 +22,6 @@
 简洁，轻便的3D旋转焦点图
 
 ### 用法
-
-css文件引用：
-```
-<link href="css/demos.css" rel="stylesheet" />
-```
 
 页面结构：
 ```
